@@ -1,4 +1,5 @@
 This is a demo site.
+This is a test.
 
 CONTENTS OF THIS FILE
 ---------------------
