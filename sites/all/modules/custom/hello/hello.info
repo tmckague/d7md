@@ -1,0 +1,5 @@
+name = Hello World
+description = First custom module
+core = 7.x
+package = DrupalTutor
+Version = 7.x-1.0
