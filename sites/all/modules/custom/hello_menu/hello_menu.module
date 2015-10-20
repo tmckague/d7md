@@ -1,0 +1,19 @@
+<?php
+
+function hello_menu_menu() {
+  $items = array();
+  
+  $items['hello'] = array ( //short drupal path
+    'title' => 'Hello World', //title of page
+    'page callback' => 'hello_menu_simple_hello', //function called when we hit page url (hello)
+    'access arguments' => array('access content'), //permission. Are we allowed to access page?
+    'menu_name' => 'main-menu',
+    'weight' => 1,
+  );
+  
+  return $items;
+}
+
+function hello_menu_simple_hello() {
+  return t('Hello World!');
+}
